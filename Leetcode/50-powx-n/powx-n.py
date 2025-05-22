@@ -6,8 +6,8 @@ class Solution:
         def ret(x,num):
             if num == 0:
                 return 1
-            if num == 1:
-                return x
+            # if num == 1:
+            #     return x
             out = ret(x,num//2)
             out *= out 
             if num %2:
