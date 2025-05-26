@@ -3,8 +3,6 @@ class Solution:
         boat = 0
         people = sorted(people)
 
-        print(people)
-        # return 0
         l,r = 0, len(people)-1
 
 
